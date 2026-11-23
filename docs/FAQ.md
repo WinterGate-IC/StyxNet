@@ -19,7 +19,3 @@ Unverified, junk, legacy, or irrelevant records are quarantined so they do not p
 ## Is StyxNet omniscient?
 
 No. Coverage depends on source availability, Tor/proxy health, platform blocking, and gated content.
-
-## Is the source code in this repository?
-
-No. This repository is public documentation and scoring only.
