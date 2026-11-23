@@ -1,6 +1,6 @@
 # Architecture
 
-This is a high-level public description. Sensitive implementation detail and credentials are not published.
+This is a high-level public description of the platform design.
 
 ## Layers
 
@@ -18,9 +18,6 @@ This is a high-level public description. Sensitive implementation detail and cre
 - Confirmed-only active intelligence
 - Safe and auditable operation
 
-## Not published
+## Scope
 
-- Credentials, tokens, or keys
-- Bypass or exploit techniques
-- Private targeting details
-- Sensitive operational configuration
+This document describes the platform's design, defensive purpose, and operating model. It is documentation, not an operational manual.

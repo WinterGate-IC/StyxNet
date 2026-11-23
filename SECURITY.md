@@ -2,7 +2,7 @@
 
 Please report security or safety issues privately.
 
-Do not open a public issue with live credentials, tokens, private data, or operational secrets.
+Do not include passwords, tokens, or private data in public issues.
 
 Include:
 

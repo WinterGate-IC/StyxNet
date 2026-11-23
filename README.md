@@ -133,7 +133,7 @@ StyxNet is not a target list, a hacking tool, or a service for contacting or exp
 | [`docs/OVERVIEW.md`](docs/OVERVIEW.md) | What StyxNet is and how it is positioned |
 | [`docs/CAPABILITIES.md`](docs/CAPABILITIES.md) | Collection, correlation, validation, operations |
 | [`docs/VALIDATION.md`](docs/VALIDATION.md) | Validation signals, confidence, relevance |
-| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | High-level architecture, no sensitive implementation detail |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | High-level architecture and design goals |
 | [`docs/OPERATIONS.md`](docs/OPERATIONS.md) | Safe operational model and retention |
 | [`docs/LEGAL.md`](docs/LEGAL.md) | Legal bounds and use restrictions |
 | [`docs/RESPONSIBLE_USE.md`](docs/RESPONSIBLE_USE.md) | Ethics, privacy, and disclosure |
@@ -164,4 +164,4 @@ StyxNet is powerful, not omniscient.
 
 ---
 
-© 2026 WinterGate Intelligence Collective. Public documentation only. Source code is not published in this repository.
+© 2026 WinterGate Intelligence Collective. Public documentation and capability scoring.
