@@ -1,6 +1,6 @@
 # Responsible use
 
-StyxNet is for lawful, defensive, and research use.
+StyxNet is for lawful, defensive, and research use. Public-source OSINT is generally lawful, and StyxNet is built for that use.
 
 ## Do
 

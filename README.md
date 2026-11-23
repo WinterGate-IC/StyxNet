@@ -102,10 +102,10 @@ The full model is in [`scoring/SCORING.md`](scoring/SCORING.md).
 
 ## Legal and responsible use
 
-StyxNet is designed for **lawful OSINT, defensive research, threat intelligence, platform safety, and authorised investigations**.
+StyxNet is a **legal, passive OSINT platform** designed for lawful research, defensive intelligence, platform safety, and threat analysis.
 
-- StyxNet reads public pages. It does not provide unauthorised access, stolen credentials, exploitation, or bypass instructions.
-- Using StyxNet for lawful research is not illegal. Legality still depends on jurisdiction, target, method, and platform terms.
+- StyxNet reads public pages. It does not access private systems, bypass authentication, supply stolen credentials, or provide exploitation instructions.
+- Public-source OSINT is generally lawful, and StyxNet is built for that use. As with any OSINT work, comply with applicable law, platform terms, and privacy obligations.
 - Do not use StyxNet for harassment, doxxing, stalking, unauthorised access, or targeting private individuals.
 - Operators are responsible for applicable law, platform terms, and ethical handling of public data.
 - Confirmation means evidence linkage, not legal ownership or universal truth.
