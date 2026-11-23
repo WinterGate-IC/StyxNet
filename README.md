@@ -3,9 +3,26 @@
 **Secure Deep Web Intelligence Engine**  
 Built by the **WinterGate Intelligence Collective**
 
-StyxNet is a passive multi-surface OSINT collection and validation platform. It combines surface-web search, deep-web discovery, onion routing, identity correlation, target observation, evidence archiving, and page-level linkage validation into one intelligence system.
+StyxNet is a passive multi-surface OSINT collection, correlation, validation, and evidence-preservation platform. It brings surface-web search, deep-web discovery, onion routing, identity correlation, target observation, and page-level linkage validation into one intelligence system.
 
-**Capability score: 91/100 — Tier S-**
+**Capability score: 91/100 — Tier S-**  
+**Power score: 94/100 · Intel capability: 89/100**
+
+---
+
+## At a glance
+
+| | |
+|---|---|
+| **Name** | StyxNet |
+| **Type** | Passive multi-surface OSINT intelligence platform |
+| **Operator** | WinterGate Intelligence Collective |
+| **Primary use** | Lawful research, defensive intelligence, platform safety, threat analysis |
+| **Validation** | Ominis-OSINT page-level linkage checks, relevance checks, confirmed-only active intel |
+| **Data hygiene** | Quarantine retention, 3-day cleanup, audit logs |
+| **Capability tier** | S- |
+| **Overall score** | 91/100 |
+| **Public documentation** | This repository |
 
 ---
 
@@ -13,7 +30,16 @@ StyxNet is a passive multi-surface OSINT collection and validation platform. It 
 
 Most OSINT tools operate in one lane: search aggregation, username lookup, onion indexing, or identity graphing. StyxNet combines those lanes into a single operating system for intelligence collection.
 
-Core capabilities:
+StyxNet is built around four ideas:
+
+1. **Collect broadly** — surface, deep, and onion sources.
+2. **Correlate carefully** — usernames, identities, targets, observations, and ledger claims.
+3. **Validate deeply** — read the page, not just the status code.
+4. **Preserve responsibly** — evidence, audit trails, quarantine, and retention controls.
+
+---
+
+## Core capabilities
 
 - Multi-engine surface, deep, and onion search
 - Tor routing, proxy rotation, and fallback lanes
@@ -27,13 +53,13 @@ Core capabilities:
 - Three-day quarantine retention and cleanup
 - Admin controls, audit logs, rate limits, and health monitoring
 
-StyxNet is designed for lawful research, platform safety, threat intelligence, and defensive analysis.
+See [`docs/CAPABILITIES.md`](docs/CAPABILITIES.md) for the full capability profile.
 
 ---
 
 ## Validation depth
 
-StyxNet does not treat an HTTP 200 as proof. Profile-like results are read and checked for evidence such as:
+StyxNet does not treat HTTP 200 as proof. Profile-like results are read and checked for evidence such as:
 
 - Page metadata and canonical URL
 - Redirects
@@ -47,41 +73,86 @@ Results are classified as **Confirmed**, **Linkage-confirmed**, or **Unverified*
 
 Content findings receive a separate relevance pass so site-wide boilerplate does not create false marketplace or phishing findings.
 
----
-
-## Capability score: 91/100
-
-| Dimension | Score | Basis |
-|---|---:|---|
-| Collection breadth | 96 | Surface, deep, onion, multi-engine, Tor, proxies |
-| Data scale | 88 | Large threat-feed, engine, onion, and intelligence stores |
-| Validation depth | 93 | Ominis-OSINT, multi-signal linkage, relevance checks, confirmed-only |
-| Automation | 90 | Discovery, crawling, validation, quarantine, cleanup, rate limits |
-| Identity/targeting | 89 | Username hunts, identity graph, targets, observations, ledger |
-| Resilience | 86 | Engine fallback, proxy rotation, retries, health monitoring |
-| Admin/operations | 92 | Users, tokens, revocation, audit logs, controls |
-| Data hygiene | 94 | Quarantine retention, relevance validation, confirmed-only active intel |
-
-- **Power score:** 94/100
-- **Intel capability score:** 89/100
-- **Overall:** 91/100
-- **Tier:** S-
-
-The score reflects collection breadth, scale, validation depth, automation, targeting, resilience, operational control, and data hygiene. It is a capability assessment, not a claim of omniscience or absolute truth.
+See [`docs/VALIDATION.md`](docs/VALIDATION.md) for details.
 
 ---
 
-## What the score means
+## Capability score
 
-StyxNet sits in the elite tier for passive multi-surface OSINT collection and validation. It is not a single-purpose scraper. It is an orchestration and validation system that collects, correlates, confirms, and preserves intelligence.
+StyxNet is scored across eight dimensions:
 
-It still depends on public source availability, Tor/proxy health, platform blocking, and gated content. Confirmation means evidence linkage, not legal ownership or universal truth.
+| Dimension | Score |
+|---|---:|
+| Collection breadth | 96 |
+| Data scale | 88 |
+| Validation depth | 93 |
+| Automation | 90 |
+| Identity/targeting | 89 |
+| Resilience | 86 |
+| Admin/operations | 92 |
+| Data hygiene | 94 |
+
+**Overall: 91/100 — Tier S-**  
+**Power: 94/100**  
+**Intel capability: 89/100**
+
+The full model is in [`scoring/SCORING.md`](scoring/SCORING.md).
 
 ---
 
-## Responsible use
+## Legal and responsible use
 
-StyxNet is intended for lawful, defensive, and research use. It does not authorise unauthorised access, harassment, doxxing, or targeting of individuals. Operators are responsible for applicable law, platform terms, and ethical handling of public data.
+StyxNet is designed for **lawful OSINT, defensive research, threat intelligence, platform safety, and authorised investigations**.
+
+- StyxNet reads public pages. It does not provide unauthorised access, stolen credentials, exploitation, or bypass instructions.
+- Using StyxNet for lawful research is not illegal. Legality still depends on jurisdiction, target, method, and platform terms.
+- Do not use StyxNet for harassment, doxxing, stalking, unauthorised access, or targeting private individuals.
+- Operators are responsible for applicable law, platform terms, and ethical handling of public data.
+- Confirmation means evidence linkage, not legal ownership or universal truth.
+
+Read [`docs/LEGAL.md`](docs/LEGAL.md) and [`docs/RESPONSIBLE_USE.md`](docs/RESPONSIBLE_USE.md) before operating or citing results.
+
+---
+
+## Who it is for
+
+- Defenders and security researchers
+- Platform trust and safety teams
+- Threat-intelligence analysts
+- Journalists and investigators working with public evidence
+- Organisations documenting abuse, extremism, or coordinated harassment
+
+StyxNet is not a target list, a hacking tool, or a service for contacting or exposing private individuals.
+
+---
+
+## Repository map
+
+| Path | Contents |
+|---|---|
+| [`docs/OVERVIEW.md`](docs/OVERVIEW.md) | What StyxNet is and how it is positioned |
+| [`docs/CAPABILITIES.md`](docs/CAPABILITIES.md) | Collection, correlation, validation, operations |
+| [`docs/VALIDATION.md`](docs/VALIDATION.md) | Validation signals, confidence, relevance |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | High-level architecture, no sensitive implementation detail |
+| [`docs/OPERATIONS.md`](docs/OPERATIONS.md) | Safe operational model and retention |
+| [`docs/LEGAL.md`](docs/LEGAL.md) | Legal bounds and use restrictions |
+| [`docs/RESPONSIBLE_USE.md`](docs/RESPONSIBLE_USE.md) | Ethics, privacy, and disclosure |
+| [`docs/FAQ.md`](docs/FAQ.md) | Common questions |
+| [`scoring/SCORING.md`](scoring/SCORING.md) | Full capability scoring model |
+| [`scoring/scorecard.json`](scoring/scorecard.json) | Machine-readable scorecard |
+| [`SECURITY.md`](SECURITY.md) | Responsible disclosure |
+| [`CHANGELOG.md`](CHANGELOG.md) | Public documentation changes |
+
+---
+
+## Limitations
+
+StyxNet is powerful, not omniscient.
+
+- Coverage depends on public source availability, Tor/proxy health, platform blocking, and gated content.
+- Identity confirmation is evidence-based and can have false negatives.
+- Private, closed, or heavily restricted material is generally out of reach.
+- Speed and coverage vary heavily by target and network conditions.
 
 ---
 
@@ -93,4 +164,4 @@ StyxNet is intended for lawful, defensive, and research use. It does not authori
 
 ---
 
-© 2026 WinterGate Intelligence Collective
+© 2026 WinterGate Intelligence Collective. Public documentation only. Source code is not published in this repository.

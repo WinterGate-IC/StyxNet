@@ -4,8 +4,6 @@
 
 ## Model
 
-The score measures intelligence capability across eight weighted dimensions.
-
 | Dimension | Score | Weight | Weighted |
 |---|---:|---:|---:|
 | Collection breadth | 96 | 20% | 19.20 |

@@ -1,0 +1,29 @@
+{
+  "name": "StyxNet",
+  "operator": "WinterGate Intelligence Collective",
+  "overall": 91,
+  "tier": "S-",
+  "power_score": 94,
+  "intel_capability_score": 89,
+  "dimensions": {
+    "collection_breadth": 96,
+    "data_scale": 88,
+    "validation_depth": 93,
+    "automation": 90,
+    "identity_targeting": 89,
+    "resilience": 86,
+    "admin_operations": 92,
+    "data_hygiene": 94
+  },
+  "weights": {
+    "collection_breadth": 0.20,
+    "data_scale": 0.10,
+    "validation_depth": 0.20,
+    "automation": 0.15,
+    "identity_targeting": 0.10,
+    "resilience": 0.10,
+    "admin_operations": 0.05,
+    "data_hygiene": 0.10
+  },
+  "note": "Capability assessment, not a claim of omniscience or absolute truth."
+}
